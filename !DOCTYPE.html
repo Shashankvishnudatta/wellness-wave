@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare Medical Center</title>
+    <link rel="stylesheet" href="hi.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <h1>HealthCare Medical Center</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#appointment" class="appointment-btn">Book Appointment</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Your Health, Our Priority</h2>
+            <p>We offer comprehensive healthcare services for all age groups.</p>
+            <a href="#appointment" class="btn">Book an Appointment</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>General Consultation</h3>
+                <p>Experienced doctors available for general health check-ups.</p>
+            </div>
+            <div class="service-item">
+                <h3>Specialist Services</h3>
+                <p>Access to various medical specialties, including cardiology, orthopedics, and more.</p>
+            </div>
+            <div class="service-item">
+                <h3>Laboratory Testing</h3>
+                <p>On-site lab tests with quick and accurate results.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors">
+        <div class="container">
+            <h2>Meet Our Doctors</h2>
+            <div class="doctor-item">
+                <img src="doctor1.jpg" alt="Dr. John Doe">
+                <h3>Dr. John Doe</h3>
+                <p>Cardiologist</p>
+            </div>
+            <div class="doctor-item">
+                <img src="doctor2.jpg" alt="Dr. Jane Smith">
+                <h3>Dr. Jane Smith</h3>
+                <p>Dermatologist</p>
+            </div>
+            <div class="doctor-item">
+                <img src="doctor3.jpg" alt="Dr. Mike Brown">
+                <h3>Dr. Mike Brown</h3>
+                <p>Orthopedic Surgeon</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>HealthCare Medical Center is dedicated to providing high-quality medical care. Our team of professionals is here to help you with all your health needs.</p>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment">
+        <div class="container">
+            <h2>Book an Appointment</h2>
+            <form action="appointment.php" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out to us for any queries or assistance.</p>
+            <p>Email: info@wellnesswave.com</p>
+            <p>Phone: +91 9283981013/p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HealthCare Medical Center. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
